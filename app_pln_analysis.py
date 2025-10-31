@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import base64
+import openpyxl
 
 # -------------------------------
 # KONFIGURASI AWAL
@@ -497,4 +498,5 @@ def main():
         st.info("📥 Silakan unggah file Excel RAB PLN terlebih dahulu untuk memulai analisis.")
 
 if __name__ == "__main__":
+
     main()
